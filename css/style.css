@@ -1,0 +1,173 @@
+:root {
+  --dairy: #fcfcfc;
+  --white: #ffffff;
+  --grey: #2e2f42;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --light-slat: #8e8f99;
+  --slate: #434455;
+  --green: #31d0aa;
+  --navyblue: #2e2f42;
+  --ocean: #404bbf;
+  --iris: #4d5ae5;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--white);
+  color: var(--slate);
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.head-three {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.title-two {
+  color: var(--navyblue);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.main-title {
+  color: var(--white);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.top-line {
+  background: var(--white);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.logo {
+  color: var(--iris);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-second {
+  color: var(--navyblue);
+}
+
+.logo-second-fotter {
+  color: var(--cloud);
+}
+
+.nav-list {
+  color: var(--navyblue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-list:hover,
+.nav-list:focus {
+  color: var(--ocean);
+}
+.contacts-list {
+  color: var(--slate);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-list:hover,
+.contacts-list:focus {
+  color: var(--ocean);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.contacts {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--ocean);
+}
+
+.filters-button {
+  color: var(--iris);
+  background: var(--cloud);
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+  color: var(--white);
+  background: var(--ocean);
+}
+
+.team {
+  background: var(--cloud);
+}
+
+.team-card {
+  background: var(--white);
+}
+
+.main-section {
+  background-color: var(--grey);
+}
+.main-button {
+  color: var(--white);
+  background: var(--iris);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--ocean);
+}
+
+.footer {
+  background: var(--navyblue);
+}
+
+.footer .footer-text {
+  color: var(--cloud);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
