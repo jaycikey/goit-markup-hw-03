@@ -281,12 +281,21 @@ img {
   letter-spacing: 0.04em;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower);
+  display: flex;
+  padding: 12px 24px;
+  align-items: flex-start;
 }
 
 .filters-button:hover,
 .filters-button:focus {
   color: var(--white);
   background: var(--ocean);
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .filters {
