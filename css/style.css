@@ -93,6 +93,7 @@ img {
 }
 
 .logo-fotter {
+  display: inline-block;
   color: var(--iris);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -101,7 +102,6 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-bottom: 16px;
-  display: inline-block;
 }
 
 .logo-second-fotter {
@@ -111,6 +111,7 @@ img {
 .row-list {
   display: flex;
   gap: 40px;
+  display: flex;
 }
 
 .nav-list {
@@ -120,6 +121,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: flex;
+  align-items: center;
 }
 .nav-list ul {
   display: inline-flex;
@@ -323,7 +326,7 @@ address {
 }
 
 .work-item {
-  width: calc((100% - 3 * 16px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .work-desc {
