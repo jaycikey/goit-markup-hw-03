@@ -281,6 +281,14 @@ address {
   padding-bottom: 120px;
 }
 
+.container-work {
+  max-width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  width: 1158px;
+}
+
 .filters-button {
   color: var(--iris);
   background: var(--cloud);
@@ -332,7 +340,15 @@ address {
   padding: 100px 0;
 }
 
-.logo-fotter {
+.container-footer {
+  max-width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  width: 1158px;
+}
+
+.logo-footer {
   display: inline-block;
   color: var(--iris);
   font-family: 'Raleway', sans-serif;
@@ -344,7 +360,7 @@ address {
   margin-bottom: 16px;
 }
 
-.logo-second-fotter {
+.logo-second-footer {
   color: var(--cloud);
 }
 
