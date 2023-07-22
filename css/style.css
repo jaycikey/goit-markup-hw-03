@@ -123,8 +123,13 @@ img {
   border-bottom: 1px solid var(--cornflower);
 }
 
-.container {
+.nav-container {
   display: flex;
+  max-width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  width: 1158px;
 }
 
 .nav-list {
