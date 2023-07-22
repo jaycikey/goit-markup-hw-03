@@ -123,6 +123,27 @@ img {
   border-bottom: 1px solid var(--cornflower);
 }
 
+.container {
+  display: flex;
+}
+
+.nav-list {
+  color: var(--navyblue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-list:hover,
+.nav-list:focus {
+  color: var(--ocean);
+}
+
 .logo {
   color: var(--iris);
   font-family: 'Raleway', sans-serif;
@@ -142,23 +163,6 @@ img {
   display: flex;
   gap: 40px;
   display: flex;
-}
-
-.nav-list {
-  color: var(--navyblue);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 24px 0;
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.nav-list:hover,
-.nav-list:focus {
-  color: var(--ocean);
 }
 
 address {
