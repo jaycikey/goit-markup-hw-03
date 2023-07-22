@@ -33,6 +33,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .title-two {
@@ -53,8 +54,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  text-align: center;
-  margin-bottom: 8px;
 }
 
 .link {
@@ -72,7 +71,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  text-align: center;
 }
 
 h1,
@@ -93,13 +91,22 @@ img {
   max-width: 100%;
 }
 
-/*main container*/
+/*Main container*/
 .container {
   max-width: 1440px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   width: 1158px;
+}
+
+/*Center container*/
+
+.center-column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Hiding elements */
@@ -123,25 +130,9 @@ img {
   border-bottom: 1px solid var(--cornflower);
 }
 
-.nav-list {
-  color: var(--navyblue);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 24px 0;
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.nav-list:hover,
-.nav-list:focus {
-  color: var(--ocean);
-}
-
 .nav-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -153,33 +144,53 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .logo-second {
   color: var(--navyblue);
 }
 
-.row-list {
-  display: flex;
-  gap: 40px;
+.header-nav {
   display: flex;
 }
 
-address {
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-nav-item {
+  display: block;
   padding: 24px 0;
+  color: var(--navyblue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.contacts-row {
+.header-nav-item:hover,
+.header-nav-item:focus {
+  color: var(--ocean);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.address-list {
   display: flex;
   gap: 40px;
 }
 
-.contacts {
+.address-item {
+  display: block;
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
+  padding: 24px 0;
 }
 
 .contacts:hover,
@@ -225,7 +236,6 @@ address {
 }
 
 .feature-item {
-  display: flex;
   width: calc((100% - 3 * 24px) / 4);
 }
 
@@ -255,7 +265,6 @@ address {
 .team-list {
   display: flex;
   gap: 24px;
-  margin-top: 72px;
 }
 
 .team-item {
@@ -264,17 +273,11 @@ address {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  display: inline-flex;
-  padding-bottom: 0px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-  padding-bottom: 32px;
 }
 
 .team-desc {
   padding: 32px 0;
+  text-align: center;
 }
 
 /* Our works section*/
@@ -302,6 +305,8 @@ address {
 .filters-button:hover,
 .filters-button:focus {
   border: 1px solid transparent;
+  background: var(--ocean);
+  color: var(--white);
 }
 
 .filters {
