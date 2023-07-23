@@ -34,6 +34,8 @@ body {
   letter-spacing: 0.02em;
   max-width: 496px;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title-two {
@@ -98,15 +100,6 @@ img {
   padding-right: 15px;
   margin: 0 auto;
   width: 1158px;
-}
-
-/*Center container*/
-
-.center-column {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
 }
 
 /* Hiding elements */
@@ -218,6 +211,8 @@ img {
   border: none;
   background-color: var(--iris);
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-button:hover,
