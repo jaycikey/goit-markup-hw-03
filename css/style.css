@@ -94,6 +94,7 @@ img {
 }
 
 /*Main container*/
+
 .container {
   max-width: 1440px;
   padding-left: 15px;
@@ -103,6 +104,7 @@ img {
 }
 
 /* Hiding elements */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
